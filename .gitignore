@@ -220,3 +220,4 @@ __marimo__/
 .streamlit/secrets.toml
 .env
 *.db
+usajobs_sample.json
