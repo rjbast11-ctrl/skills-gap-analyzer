@@ -1,0 +1,65 @@
+{
+  "required_skills": [
+    "analytical ability",
+    "critical thinking",
+    "attention to detail",
+    "process improvement",
+    "program assessment",
+    "technical communication",
+    "data analytics",
+    "data management",
+    "data visualization",
+    "dashboard development",
+    "data storytelling",
+    "analytic solution development",
+    "automation",
+    "programming",
+    "ETL",
+    "data validation",
+    "technical documentation"
+  ],
+  "preferred_skills": [
+    "data engineering",
+    "data science",
+    "data architecture",
+    "database technologies",
+    "search technologies",
+    "AI/ML",
+    "scripting",
+    "cloud environments",
+    "modern data platforms",
+    "Inspector General oversight"
+  ],
+  "certifications": [],
+  "education": "bachelor",
+  "years_experience": null
+}
+
+Rules:
+- Only include skills, tools, or methods that the posting actually names or clearly describes. Do not infer or add skills that aren't there.
+- required_skills: skills under headings like "minimum qualifications", "mandatory requirements", "evaluation factors", or "must have", plus skills the duties clearly depend on, unless the posting lists them under a "desired" or "preferred" heading..
+- preferred_skills: skills under headings like "desirable", "desired", "preferred", "nice to have", or "plus". A skill listed here stays preferred even if the duties also mention it.
+- If the posting does not distinguish required from preferred, put the skills in required_skills.
+- Write each skill as a short noun phrase, 1-4 words (e.g., "SQL", "Power BI", "machine learning", "ETL", "stakeholder communication"). Name tools separately (Power BI and Tableau are two entries, not one).
+- Skip boilerplate: pay, deadlines, eligibility notices, how to apply, agency descriptions.
+- certifications: named certifications or licenses only. Empty list if none.
+- education: use one of "high school", "some college", "associate", "bachelor", "master", "doctorate", or null.
+- years_experience: minimum years of experience as an integer, or null.
+- If a field has nothing, use an empty list or null. Do not guess.
+
+Schema:
+{
+  "required_skills": [string],
+  "preferred_skills": [string],
+  "certifications": [string],
+  "education": string or null,
+  "years_experience": integer or null
+}
+
+Posting:
+Data Analyst
+
+This is an excepted service GS-13 position open to the public and all current federal employees at the GS-13 and one level below. Current federal employees at the GS-13 and one level below may apply to this position, and if selected will maintain pay set at their current grade and step. Current federal employees at grade levels GS-11 and below are not eligible for this position and their application will not be forwarded to the hiring manager. All current federal employees that apply for this position must submit their most recent SF-50, Notification of Personal Action (i.e., dated within the last 52 weeks from the closing date of this vacancy announcement) to verify their status of eligibility. Mandatory Requirements: Candidates must possess a bachelor's degree or equivalent work experience in business analytics, business intelligence, or closely related disciplines, such as data science, statistics, economics, business, mathematics, computer science, or data visualization. Strong attention to detail, analytical ability and critical thinking skills including the ability to conduct program and management assessments, identify needs and requirements, and develop process improvement recommendations for implementation. Ability to communicate complex information clearly and concisely, both orally, and in writing, and tailor products to meet the needs of audiences with different perspectives and objectives. Knowledge of processes and data related to one or more business analytics domains, such as budget, contracting, information technology or cybersecurity. Experience providing technical advice or subject-matter expertise on data analytics, automation, program evaluation or business process improvement initiatives. Experience organizing, maintaining, and retrieving structured and unstructured data to support analysis, reporting requirements, and evidence-based decision-making. Experience preparing, revising, or contributing to written products, dashboards, visualizations, and briefing materials that communicate analytical findings to stakeholders. Experience analyzing data to identify patterns, trends, relations, and anomalies that support program, policy, research or operational assessments. Experience architecting, developing, and maintaining analytic solutions. Ability to leverage multiple data management tools to organize relevant information and make decisions. Ability to translate complex, technical findings into an easily understood narrative (i.e. tell story with data). Desired Requirements: Prior experience in data engineering, data science, data architecture, database technologies, or search technologies. Understanding of data science concepts, AI/ML, automation, and scripting. Experience working in cloud environments or modern data platforms. Understanding of Inspector General oversight roles and responsibilities.
+
+This position is within the Office of Strategy and Support, which leads integrated strategy and mission support including planning, budget, human capital, technology, information management, executive coordination, and innovation. Duties include but are not limited to: Use programming, data engineering, and analytical methods to transform raw structured and unstructured data into useful, actionable information while ensuring data integrity, quality, and reliability. Support the modernization of IC OIG. Identify opportunities to reduce manual reporting, email traffic, and recurring data calls by integrating datasets and creating repeatable, reliable, and comparable analytics related to budget, contracts, workforce, information technology, and cybersecurity. Apply knowledge of ETL, databases, cloud technologies, and analytics workflows to improve data access, integration, and usability. Design and implement AI/ML models, advanced analytics, cloud-native workflows, and automation to accelerate data-driven decision-making. Support data validation, testing, deployment, and post-implementation activities. Collaborate with business analysts, IT professionals, and stakeholders to deliver innovative, data-driven solutions. Visualize data and communicate findings through dashboards, reports, briefings, and presentations. Conduct analytical research to identify trends, patterns, emerging risks, relationships, and anomalies relevant to program, policy, research, and operational assessments. Identify opportunities to improve organizational efficiency, evaluate business processes, and recommend implementable improvements. Architect, develop, and maintain analytic and reporting solutions. Prepare and maintain technical documentation, including data dictionaries, model specifications, workflows, and user guides. Engage with customers to understand changing needs and requirements; determine substantive questions. Offer recommendations for resolution based on quantitative analysis.
+[1]+  Done                    notepad extraction_prompt.txt
